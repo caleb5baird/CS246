@@ -1,0 +1,38 @@
+# 03 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the JSON parsing activity.
+	The main challenge that we faced was simply in wrapping our heads around the principle behind what we were trying to do.
+
+2. For the Twitter API assignment, what did you learn about how APIs work?
+	This assignment was really my first introduction into what APIs are. So I learned data can be transferred from one application to another via JSON which is literally just a big string that contains all of the information needed.
+
+3. Did you complete the Stretch Challenge for the Twitter API Assignment? If so, briefly describe which method you used.
+	Yes I did. I copied the data from my HashMap into an ArrayList and then I created a Comparator class with a defined method of sorting.
+
+4. What did you learn from comparing your code to the teacher's solution?
+	In the teachers solution, retrieveTweetsWithHashTag used a TreeMap rather than a HashMap as I used this sorted the values by name so that it did not need to be sorted later but rather could just be displayed. I had to copy the values out of my map and into a list and then sort that list in order to display it.
+
+5. After completing the assignments this week, what questions do you still have?
+	How universal is JSON? Is it the only thing that is used? Or are there other methods of
+	transferring data from application to application which are heavily used?
+
+6. Aside from just searching for tweets with a given hashtag, what is another use you could see for the twitter API?
+	Using the Search method I could search for all sorts of results. I could look for tweets that were made in a certain location. Or by certain people, etc.
+
+7. A common Java interview question is "Describe what an API is and how it's used". (Sometimes people refer to these types of APIs as "REST APIs") How would you answer that question?
+	An API or Application program interface is a way for data to be shared between programs so that different application can work in junction.
+
+8. Of all of the resources in this week's reading, which was the _most_ helpful to you and why?
+	Honestly the most helpful thing for me was simply JavaDocs. Whenever I had a question about how to do what I was trying to do, the first thing I would do would be to look it up in JavaDocs
+
+9. Of all of the resources in this week's reading, which was the _least_ helpful to you and why?
+
+10. How many hours did you spend on this class this week?
+
+01 Prepare - 30 min
+01 Teach - 1 hr
+01 Prove 1st Attempt - 3hr
+01 Prove 2nd Attempt - 30 min
+01 Ponder - 30 min
+----------------------------
+Total Hours - 5 hr 30 min

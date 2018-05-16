@@ -1,6 +1,5 @@
 package cBaird;
 
-import com.google.gson.Gson;
 import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
 
@@ -29,9 +28,20 @@ public class TweetLoader {
         this.twitter = tf.getInstance();
     }
 
-    public HashMap<String, BYUITweet> retreiveTweetsWithHashTag(String hashtag) {
+    public Map<String, BYUITweet> retreiveTweetsWithHashTag(String hashtag) {
         HashMap<String, BYUITweet> map = new HashMap<>();
-        Gson gson = new Gson();
+//        Query query = new Query(hashtag);
+//        try {
+//            QueryResult qr = twitter.search(query);
+//            Query q = qr.nextQuery();
+//            while (q != null){
+//                //TODO
+//                map.put(q.get)
+//                q = qr.nextQuery();
+//            }
+//        } catch(TwitterException te) {
+//
+//        }
         try {
             Query query = new Query(hashtag);
             QueryResult result;
@@ -39,11 +49,10 @@ public class TweetLoader {
                 result = twitter.search(query);
                 List<Status> tweets = result.getTweets();
                 for (Status tweet : tweets) {
-                    String jsonTweet = TwitterObjectFactory.getRawJSON(tweet);
-                    BYUITweet byuiTweet = gson.fromJson(jsonTweet, BYUITweet.class);
-                    map.put(tweet.getUser().getScreenName(), byuiTweet);
+                    System.out.println("@" + tweet.getUser().getScreenName() + " - " + tweet.getText());
                 }
             } while ((query = result.nextQuery()) != null);
+            System.exit(0);
         } catch (TwitterException te) {
             te.printStackTrace();
             System.out.println("Failed to search tweets: " + te.getMessage());

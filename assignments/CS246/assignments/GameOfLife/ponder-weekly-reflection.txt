@@ -1,0 +1,49 @@
+# 02 Ponder : Weekly Reflection
+Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Vacation Calendar activity.
+	Most of the problems that we faced were just due to figuring out how to use intelliJ, how to do
+	packages, how to have the main class file, how to correctly do the imports.
+
+2. For the Game of Life assignment, what advantages do you see in using interfaces to define creature behaviors, rather than subclasses?
+	Using interfaces was very useful in writing code that could operate on a list of generic objects
+	and only have the desired effect on the objects that the code applied to .
+
+3. Did you complete the Stretch Challenge for the Game of Life Assignment? If so, briefly describe what you did, and how you structured your code.
+	No I didn't.
+
+4. What did you learn from comparing your code to the teacher's solution?
+	I didn't spend very much time in comparing so I did not learn much.
+
+5. After completing the assignments this week, what questions do you still have?
+	I don't have any.
+
+6. If you were getting paid to work on this week's Prove assignment and you had another month to work on it, what would you add?
+	I would ad some kind of user interface portion. Something to make it so that a person could
+	change the properties or behavior of the game without changing the code. Either a way to set up
+	the conditions of the game while or just before playing. Or a way to control a creature in the
+	game.
+
+7. A common Java interview question is "describe the difference between an interface and an abstract class". How would you answer that question?
+	An abstract class can still have defined methods. However an interface just identifies common
+	behaviors without actually implementing any of the methods. Thus an interface has ALL abstract
+	methods.
+
+8. Of all of the resources in this week's Preparation assignment, which was the _most_ helpful to you and why?
+	The resource that was most useful to me was simply going to javadocs. Whenever I needed to look
+	up a method or behavior of an object. That was where I turned.
+
+9. Of all of the resources in this week's Preparation assignment, which was the _least_ helpful to you and why?
+	Assigned reading in forums is not very helpful for me. It is hard for me to really dig into a QA
+	forum when I am not going to it looking for a specific answer.
+
+10. How many hours did you spend on this class this week?
+
+02 Prepare - 30 min
+02 Teach - 1 hr
+02 Prove 1st Attempt - 2 hr
+02 Prove 2nd Attempt - 2 hr
+02 Ponder - 30 min
+----------------------------
+Total Hours - 6 hr
+
